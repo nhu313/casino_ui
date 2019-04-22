@@ -1,0 +1,332 @@
+.highlo-game {
+  padding: 5%;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.cards {
+  text-align: center;
+  display: block;
+  padding: 80px;
+  transform: scale(2);
+}
+
+.playing_card {
+  display: block;
+  margin: auto;
+}
+
+.rank1_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -2px -1px;
+}
+
+.rank2_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -75px -1px;
+}
+
+.rank3_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -148px -1px;
+}
+
+.rank4_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -220px -1px;
+}
+
+.rank5_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -294px -1px;
+}
+
+.rank6_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -366px -1px;
+}
+
+.rank7_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -440px -1px;
+}
+
+.rank8_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -512px -1px;
+}
+
+.rank9_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -586px -1px;
+}
+
+.rank10_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -658px -1px;
+}
+
+.rank11_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -732px -1px;
+}
+
+.rank12_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -804px -1px;
+}
+
+.rank13_clubs {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -878px -1px;
+}
+
+.rank1_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -2px -99px;
+}
+
+.rank2_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -75px -99px;
+}
+
+.rank3_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -148px -99px;
+}
+
+.rank4_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -220px -99px;
+}
+
+.rank5_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -294px -99px;
+}
+
+.rank6_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -366px -99px;
+}
+
+.rank7_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -440px -99px;
+}
+
+.rank8_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -512px -99px;
+}
+
+.rank9_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -586px -99px;
+}
+
+.rank10_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -658px -99px;
+}
+
+.rank11_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -732px -99px;
+}
+
+.rank12_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -804px -99px;
+}
+
+.rank13_hearts {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -878px -99px;
+}
+
+.rank1_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -2px -197px;
+}
+
+.rank2_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -75px -197px;
+}
+
+.rank3_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -148px -197px;
+}
+
+.rank4_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -220px -197px;
+}
+
+.rank5_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -294px -197px;
+}
+
+.rank6_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -366px -197px;
+}
+
+.rank7_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -440px -197px;
+}
+
+.rank8_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -512px -197px;
+}
+
+.rank9_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -586px -197px;
+}
+
+.rank10_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -658px -197px;
+}
+
+.rank11_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -732px -197px;
+}
+
+.rank12_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -804px -197px;
+}
+
+.rank13_spades {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -878px -197px;
+}
+
+.rank1_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -2px -295px;
+}
+
+.rank2_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -75px -295px;
+}
+
+.rank3_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -148px -295px;
+}
+
+.rank4_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -220px -295px;
+}
+
+.rank5_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -294px -295px;
+}
+
+.rank6_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -366px -295px;
+}
+
+.rank7_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -440px -295px;
+}
+
+.rank8_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -512px -295px;
+}
+
+.rank9_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -586px -295px;
+}
+
+.rank10_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -658px -295px;
+}
+
+.rank11_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -732px -295px;
+}
+
+.rank12_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -804px -295px;
+}
+
+.rank13_diamonds {
+ width: 71px;
+ height: 97px;
+ background: url(/assets/cards.png) -878px -295px;
+}
