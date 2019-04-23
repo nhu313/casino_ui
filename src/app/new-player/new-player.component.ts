@@ -9,7 +9,7 @@ import { HighloGameService } from './../services/highlo-game.service';
 })
 export class NewPlayerComponent implements OnInit {
   playerName: String = "";
-  gameId: Number;
+  gameId: number;
 
   constructor(private router: Router,
               private route : ActivatedRoute,
@@ -22,7 +22,7 @@ export class NewPlayerComponent implements OnInit {
 
   submit(){
     this.service.createPlayer(this.gameId, this.playerName)
-                .subscribe(data => this.router.navigate(['/games/highlo/' + game.id]));
+                .subscribe(game => this.router.navigate(['/games/highlo/' + game.id]));
   }
 
 }

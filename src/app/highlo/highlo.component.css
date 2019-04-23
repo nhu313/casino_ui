@@ -1,12 +1,12 @@
 h3 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .cards {
   text-align: center;
   display: block;
   padding: 80px;
-  transform: scale(2);
+  transform: scale(1.5);
 }
 
 .playing_card {

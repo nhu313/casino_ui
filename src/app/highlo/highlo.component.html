@@ -1,12 +1,19 @@
 <div class="highlo-game">
+<button type="button" (click)="deal()" *ngIf="newGame" class="btn btn-light">Start game</button>
+<div *ngIf="!newGame">
+  <div class="cards" *ngIf="result.flippedCard">
+    <h3>Deck</h3>
+    <div class="playing_card {{cardDesc(result.flippedCard)}}"></div>
+  </div>
 
-<div class="cards">
-  <h3>Deck</h3>
-  <div class="playing_card rank1_clubs"></div>
-</div>
-
-<div class="cards">
-  <h3>Your card</h3>
-  <div class="playing_card rank1_clubs"></div>
+  <div class="player-cards" *ngFor="let player of game.players">
+    <div class="cards">
+      <h3>{{player.name}}</h3>
+      <div *ngIf="player.getCurrentCard()" class="playing_card {{cardDesc(player.getCurrentCard())}}"></div>
+      <button type="button" name="button" (click)="high(player)">High</button>
+      <button type="button" name="button" (click)="low(player)">low</button>
+      <div *ngIf="getResult(player)">{{getResult(player)}}</div>
+    </div>
+  </div>
 </div>
 </div>
