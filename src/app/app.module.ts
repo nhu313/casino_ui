@@ -6,12 +6,14 @@ import { HighloComponent } from './highlo/highlo.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { NewPlayerComponent } from './new-player/new-player.component';
+import { NewGameComponent } from './new-game/new-game.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HighloComponent,
-    NewPlayerComponent
+    NewPlayerComponent,
+    NewGameComponent
   ],
   imports: [
     AppRoutingModule,
