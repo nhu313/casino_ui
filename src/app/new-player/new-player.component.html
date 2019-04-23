@@ -1,8 +1,11 @@
 
-<form class="" action="index.html" method="post">
+<form>
   <div class="form-group">
-    <label for="name">What's your name?</label>
-    <input type="text" name="name" value="">
+    <label for="playerName">What's your name?</label>
+    <input type="text" name="playerName" [(ngModel)]="playerName">
+  </div>
+  <div class="form-group">
+    <button type="button" name="button" class="btn btn-light" (click)="submit()">Submit</button>
   </div>
 
 </form>
