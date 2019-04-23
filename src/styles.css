@@ -3,4 +3,19 @@
 body {
   background-color: #076324;
   color: #FFF;
+  text-align: center;
+  padding: 5%;
+}
+
+.form-group {
+  display: block;
+}
+
+.form-group label{
+  display: block;
+  font-size: 25px;
+}
+
+.container {
+  padding: 20px;
 }
