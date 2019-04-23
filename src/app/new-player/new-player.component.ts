@@ -21,9 +21,8 @@ export class NewPlayerComponent implements OnInit {
   }
 
   submit(){
-    console.log(this.playerName);
-    console.log(this.gameId);
-    // this.service.createPlayer(this.gameId, this.name);
+    this.service.createPlayer(this.gameId, this.playerName)
+                .subscribe(data => this.router.navigate(['/games/highlo/' + game.id]));
   }
 
 }

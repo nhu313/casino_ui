@@ -6,7 +6,7 @@ import { NewGameComponent } from './new-game/new-game.component';
 
 const appRoutes: Routes = [
   {path: 'games/highlo/:id',
-    children: [
+   children: [
       {
         path: 'players/new',
         component: NewPlayerComponent

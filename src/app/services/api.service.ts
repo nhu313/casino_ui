@@ -11,6 +11,7 @@ export class ApiService {
   constructor(private http : HttpClient) { }
 
   post(path, data): Observable {
+    console.log(data);
     return this.http.post(this.API_URI + path, data, this.createHeaders());
   }
 
