@@ -53,7 +53,7 @@ export class HighloComponent implements OnInit {
 
   getResult(player) {
     if (this.result['result']) {
-      return this.result.result[player.id];
+      return this.result['result'][player.id];
     }
     return '';
   }
